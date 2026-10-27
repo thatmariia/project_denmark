@@ -1,0 +1,16 @@
+cff-version: "1.2.0"
+message: "If you use this software, please cite it using the metadata in this file."
+title: "Denmark project"
+type: software
+version: "v0.1.0"
+abstract: "Blah blah blah"
+repository-code: "https://github.com/thatmariia/project_denmark"
+url: "https://thatmariia.github.io/project_denmark/"
+authors:
+  - family-names: "Steeghs-Turchina"
+    given-names: "Mariia"
+    affiliation: "Leiden University Medical Center"
+    orcid: "https://orcid.org/0000-0002-0852-4752"
+keywords:
+  - "my keyword"
+  - "Data mining"

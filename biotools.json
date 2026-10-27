@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Denmark project",
+    "description": "Blah blah blah",
+    "homepage": "https://thatmariia.github.io/project_denmark/",
+    "version": [
+      "v0.1.0"
+    ],
+    "toolType": [
+      "Library",
+      "Command-line tool"
+    ],
+    "topic": [
+      {
+        "term": "Data mining",
+        "uri": "http://edamontology.org/topic_3473"
+      }
+    ],
+    "language": [
+      "Other"
+    ],
+    "maturity": "Emerging",
+    "cost": "Free of charge (with restrictions)",
+    "accessibility": "Restricted access",
+    "function": [
+      {
+        "operation": [
+          {
+            "term": "Genome indexing",
+            "uri": "http://edamontology.org/operation_3211"
+          }
+        ],
+        "input": [
+          {
+            "data": {
+              "term": "Sequence",
+              "uri": "http://edamontology.org/data_2044"
+            }
+          }
+        ],
+        "output": [
+          {
+            "data": {
+              "term": "Genome index",
+              "uri": "http://edamontology.org/data_3210"
+            }
+          }
+        ]
+      }
+    ],
+    "link": [
+      {
+        "url": "https://github.com/thatmariia/project_denmark",
+        "type": [
+          "Repository"
+        ]
+      }
+    ],
+    "documentation": [
+      {
+        "url": "https://thatmariia.github.io/project_denmark/",
+        "type": [
+          "General"
+        ]
+      }
+    ],
+    "credit": [
+      {
+        "name": "Mariia Steeghs-Turchina",
+        "typeEntity": "Person",
+        "orcidid": "https://orcid.org/0000-0002-0852-4752",
+        "typeRole": [
+          "Developer"
+        ]
+      },
+      {
+        "name": "My funder blah",
+        "typeEntity": "Funding agency",
+        "typeRole": [
+          "Provider"
+        ]
+      }
+    ]
+  }
+]

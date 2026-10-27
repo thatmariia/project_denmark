@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://w3id.org/codemeta/3.1",
+    {"schema": "https://schema.org/"}
+  ],
+  "@type": "SoftwareSourceCode",
+  "name": "Denmark project",
+  "description": "Blah blah blah",
+  "version": "v0.1.0",
+  "developmentStatus": "wip",
+  "applicationCategory": ["Library", "Command-line tool"],
+  "applicationSubCategory": ["http://edamontology.org/topic_3473"],
+  "schema:featureList": ["http://edamontology.org/operation_3211"],
+  "programmingLanguage": [{"@type": "ComputerLanguage", "name": "python", "version": ">=3.14"}],
+  "author": [{"@type": "Person", "name": "Mariia Steeghs-Turchina", "@id": "https://orcid.org/0000-0002-0852-4752", "givenName": "Mariia", "familyName": "Steeghs-Turchina", "affiliation": {"@type": "Organization", "name": "Leiden University Medical Center", "@id": "https://ror.org/03yrrjy16"}}],
+  "identifier": [{"@type": "PropertyValue", "propertyID": "placeholder", "value": "REPLACE_WITH_PERSISTENT_IDENTIFIER"}],
+  "keywords": ["my keyword", "Data mining"],
+  "codeRepository": "https://github.com/thatmariia/project_denmark",
+  "continuousIntegration": "https://github.com/thatmariia/project_denmark/actions",
+  "license": "https://spdx.org/licenses/Apache-2.0.html",
+  "isAccessibleForFree": true,
+  "schema:usageInfo": {"@type": "CreativeWork", "description": "Only Magnus can use it for free"},
+  "url": "https://thatmariia.github.io/project_denmark/",
+  "softwareHelp": {"@type": "CreativeWork", "url": "https://thatmariia.github.io/project_denmark/"},
+  "releaseNotes": "https://github.com/thatmariia/project_denmark/blob/HEAD/CHANGELOG.md",
+  "runtimePlatform": ["Docker"],
+  "operatingSystem": ["Platform independent"],
+  "funder": [
+    {"@type": "Organization", "name": "My funder blah"}
+  ],
+  "funding": ["My funder blah"],
+  "sameAs": ["https://bio.tools/"]
+}

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: "https://thatmariia.github.io/project_denmark/"
+    about: Check the project documentation before opening an issue.
